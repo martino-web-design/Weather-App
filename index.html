@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <link rel="icon" type="image/png" href="weather-icon-32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="weather-icon-192.png" sizes="192x192">
-    <link rel="apple-touch-icon" type="image/png" href="weather-icon-180.png">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="weather-icon-32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="weather-icon-192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" type="image/png" href="weather-icon-180.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <div class="container">
       <nav>
         <div id="searchDiv" class="flex">
-          <input id="city" type="text" placeholder="Enter a US city or Zip">
+          <input id="city" type="text" placeholder="Enter a US city or Zip" />
           <i id="searchIcon" class="material-icons">search</i>
           <div id="tempConv" class="">
             <span class="farh" id="temp_F">F&deg;</span>
@@ -30,7 +29,6 @@
       <div class="current">
         <div class="curr-grid">
           <div class="grid">
-
             <div class="flex-a">
               <p id="date" class="font-sc"></p>
               <p id="w_location" class="font-m"></p>
@@ -39,7 +37,7 @@
 
             <div class="flex-b">
               <p id="w_main"></p>
-              <img id="w_img" class="curr-img" alt="">
+              <img id="w_img" class="curr-img" alt="" />
             </div>
 
             <div class="flex-c">
@@ -55,13 +53,11 @@
               <p class="border font-sc">Humidity</p>
               <p id="w_hum" class="font-m"></p>
             </div>
-
           </div>
         </div>
       </div>
 
       <div class="forecast">
-
         <div class="wrapper">
           <div id="f_temp">
             <!-- Forecast content here -->
@@ -77,14 +73,14 @@
             <!-- Range content here -->
           </div>
         </div>
-
       </div>
-    </div> <!-- end container -->
+    </div>
+    <!-- end container -->
 
     <footer></footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="config.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
